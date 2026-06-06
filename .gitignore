@@ -1,0 +1,42 @@
+# ==========================================
+# 1. SECURITY & SECRETS (CRITICAL)
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+*.key
+
+# ==========================================
+# 2. LOCAL DATA & EXPORTS
+# ==========================================
+# Prevents uploading scraped lists and potential PII
+data/
+*.csv
+*.xlsx
+*.sqlite3
+*.db
+
+# ==========================================
+# 3. VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+env/
+.venv/
+
+# ==========================================
+# 4. PYTHON CACHE & LOGS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# ==========================================
+# 5. OS & IDE CLUTTER
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

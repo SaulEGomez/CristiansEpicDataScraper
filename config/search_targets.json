@@ -1,0 +1,13 @@
+{
+  "target_roles": [
+    "Director of Facilities",
+    "VP of Facility Operations",
+    "Head of Operations",
+    "Chief Engineer"
+  ],
+  "regions": [
+    "California",
+    "Texas",
+    "New York"
+  ]
+}

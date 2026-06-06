@@ -1,0 +1,21 @@
+# ==========================================
+# CORE DATA PROCESSING
+# ==========================================
+pandas==2.2.0           # Data manipulation, filtering, and CSV handling
+
+# ==========================================
+# WEB SCRAPING & AUTOMATION
+# ==========================================
+playwright==1.41.0      # Headless browser automation for complex sites
+beautifulsoup4==4.12.3  # HTML parsing for Google X-Ray results
+requests==2.31.0        # Basic HTTP requests for open data portals
+
+# ==========================================
+# CRM INTEGRATION
+# ==========================================
+simple-salesforce==1.12.5 # Native Salesforce REST API wrapper
+
+# ==========================================
+# SECURITY & CONFIGURATION
+# ==========================================
+python-dotenv==1.0.1    # Securely loads .env variables into settings.py≈
